@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\bin\Debug\net8.0\coffeeShop.exe
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\bin\Debug\net8.0\coffeeShop.deps.json
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\bin\Debug\net8.0\coffeeShop.runtimeconfig.json
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\bin\Debug\net8.0\coffeeShop.dll
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\bin\Debug\net8.0\coffeeShop.pdb
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.AssemblyInfo.cs
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.sourcelink.json
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.dll
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\refint\coffeeShop.dll
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.pdb
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\coffeeShop.genruntimeconfig.cache
+C:\Users\admin\source\repos\coffeeShop\coffeeShop\obj\Debug\net8.0\ref\coffeeShop.dll
