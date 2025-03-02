@@ -16,7 +16,8 @@ namespace coffeeShop
         {
             string username = "user1", userPassword = "123", adminName = "admin1", adminPassword = "admin123";
             bool isNotDoneOrdering = true;
-            Console.WriteLine("Welcome To Caffeine++");
+            Console.WriteLine(" ------------------------------------------");
+            Console.WriteLine("\tWelcome To Caffeine++");
             do
             {
                 Console.WriteLine(" ------------------------------------------");
@@ -49,7 +50,6 @@ namespace coffeeShop
                 Environment.Exit(0);
 
             } while (isNotDoneOrdering);
-
 
         }
 
