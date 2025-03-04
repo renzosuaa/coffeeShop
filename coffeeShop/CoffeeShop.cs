@@ -56,7 +56,7 @@ namespace coffeeShop
         static void Order()
         {
             string receipt = "";
-            List<Object> orderListBevarage = OrderTemplate("Bevarage");
+            List<Object> orderListBevarage = OrderTemplate("Beverage");
             List<Object> orderListSnack = OrderTemplate("Snack");
             receipt += orderListBevarage[1];
             receipt += orderListSnack[1];
@@ -133,12 +133,12 @@ namespace coffeeShop
             Console.WriteLine("""
                 [0] View Sold Summary
                 [1] Add Item
-                [2] Delete Bevarage
+                [2] Delete Beverage
                 """);
             int choice = Convert.ToInt16(Console.ReadLine());
             if (choice == 0)
             {
-                double totalBevarages = SummaryPerItemTypeAdmin("Bevarage");
+                double totalBevarages = SummaryPerItemTypeAdmin("Beverage");
                 double totalSnacks = SummaryPerItemTypeAdmin("Snack");
 
                 Console.WriteLine("Total: " + (totalBevarages + totalSnacks));
@@ -151,7 +151,7 @@ namespace coffeeShop
                 string itemType = Console.ReadLine();
                 Console.WriteLine("Enter Item Name: ");
                 string itemName = Console.ReadLine();
-                Console.WriteLine("Enter Bevarage Cost: ");
+                Console.WriteLine("Enter Beverage Cost: ");
                 double itemCost = Convert.ToDouble(Console.ReadLine());
 
                 items.Add(new Item(itemName, itemCost, itemType));
@@ -163,7 +163,7 @@ namespace coffeeShop
             else if (choice == 2)
             {
                 Console.WriteLine(" ------------------------------------------");
-                Console.WriteLine("Enter Bevarage Name: ");
+                Console.WriteLine("Enter Beverage Name: ");
                 string itemName = Console.ReadLine();
 
                 for (int i = 0; i < items.Count; i++)
@@ -220,11 +220,11 @@ namespace coffeeShop
 
         static void InitialDrinks()
         {
-            items.Add(new Item("Milktea", 67.00, "Bevarage"));
+            items.Add(new Item("Milktea", 67.00, "Beverage"));
             items.Add(new Item("Taco", 100.50, "Snack"));
-            items.Add(new Item("Coffee", 69.00, "Bevarage"));
+            items.Add(new Item("Coffee", 69.00, "Beverage"));
             items.Add(new Item("Pizza", 120.99, "Snack"));
-            items.Add(new Item("Iced Coffee", 80.00, "Bevarage"));
+            items.Add(new Item("Iced Coffee", 80.00, "Beverage"));
             items.Add(new Item("Waffle", 50.25, "Snack"));
 
         }
